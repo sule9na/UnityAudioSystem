@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2584fcb9941a146eeb75c0d387f14fca, type: 3}
+  m_Name: SoundList
+  m_EditorClassIdentifier: 
+  soundData:
+  - name: OneShot
+    clip: {fileID: 8300000, guid: 87fa1c6084b7844a59d43b96431fcc6a, type: 3}
+    mixerGroup: {fileID: 24300002, guid: 4c9b320823397451b9de240df8f2ebb8, type: 2}
+    volume: 1
+    randomPitch: 1
+    pitchMin: 0.9
+    pitchMax: 1.1
+    playOnAwake: 0
+    frequentSound: 0
+    loop: 0
+    fadeOut: 0
+    fadeOutTimeSeconds: 0
+    fadeIn: 0
+    fadeInTimeSeconds: 0
+  - name: OneShot2
+    clip: {fileID: 8300000, guid: 8a5dff20b2a774eb1b2318f8c0fc8772, type: 3}
+    mixerGroup: {fileID: 24300002, guid: 4c9b320823397451b9de240df8f2ebb8, type: 2}
+    volume: 1
+    randomPitch: 0
+    pitchMin: 1
+    pitchMax: 1
+    playOnAwake: 0
+    frequentSound: 0
+    loop: 0
+    fadeOut: 0
+    fadeOutTimeSeconds: 0
+    fadeIn: 0
+    fadeInTimeSeconds: 0
+  - name: Looping
+    clip: {fileID: 8300000, guid: 87730bcda84b743f1b78345ae6e515db, type: 3}
+    mixerGroup: {fileID: 0}
+    volume: 1
+    randomPitch: 0
+    pitchMin: 1
+    pitchMax: 1
+    playOnAwake: 0
+    frequentSound: 0
+    loop: 1
+    fadeOut: 0
+    fadeOutTimeSeconds: 0
+    fadeIn: 0
+    fadeInTimeSeconds: 0
