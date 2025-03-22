@@ -43,7 +43,7 @@ MonoBehaviour:
     fadeInTimeSeconds: 0
   - name: Looping
     clip: {fileID: 8300000, guid: 87730bcda84b743f1b78345ae6e515db, type: 3}
-    mixerGroup: {fileID: 0}
+    mixerGroup: {fileID: 24300002, guid: 4c9b320823397451b9de240df8f2ebb8, type: 2}
     volume: 1
     randomPitch: 0
     pitchMin: 1
