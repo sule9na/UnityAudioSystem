@@ -408,5 +408,11 @@ namespace AudioSystem
 
             Debug.Log("Music volume set to: " + dB);
         }
+
+        public void StopAllMusic()
+        {
+            _musicSource1.Stop();
+            _musicSource2.Stop();
+        }
     }
 }
